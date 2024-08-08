@@ -1,10 +1,20 @@
 ## UPPERCASE vs LOWERCASE
 Java-based uppercase vs lowercase letter game using matrices.
 
+<details> 
+
+<summary> Como jogar | How to play</summary>
+
+Este jogo é jogado no terminal e envolve duas jogadoras: uma utilizando letras minúsculas e a outra utilizando letras MAIÚSCULAS. O objetivo é formar uma sequência de 3 letras em linha horizontal, vertical ou diagonal no tabuleiro 3x3, representando o lago.
+
+------------------------------------------------------
+
+This game is played in the terminal and involves two players: one using lowercase letters and the other using UPPERCASE letters. The objective is to form a sequence of 3 letters in a horizontal, vertical, or diagonal line on the 3x3 board, representing the lake.
+</details>
 
 <details>
 
-<summary> História / History</summary>
+<summary> História | History</summary>
 
 No coração do reino Alfabético, existe um lago encantado de águas cristalinas e límpidas. Este lago, conhecido como Lago Lexis, é o ponto de divisão entre duas cidades rivais: a cidade das letras MAIÚSCULAS, forte e imponente, e a cidade das letras minúsculas, ágil e engenhosa. Ambas as cidades desejam construir uma ponte magnífica que atravessará o Lago Lexis, conectando as duas metades do reino e simbolizando a supremacia de uma cidade sobre a outra.
 
