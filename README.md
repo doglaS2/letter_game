@@ -84,7 +84,7 @@ A superior letter is one located later in the alphabet. For example:
 
 <summary> Interface </summary>
 
-In construction
+still under construction
 
 </details>
 
