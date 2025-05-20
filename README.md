@@ -1,3 +1,131 @@
+# 🎮 Jogo das Letras: A Batalha do Lago Lexis
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Java-11-orange" alt="Java 11">
+  <img src="https://img.shields.io/badge/Licença-MIT-blue" alt="Licença MIT">
+  <img src="https://img.shields.io/badge/Versão-1.0-green" alt="Versão 1.0">
+</div>
+
+## 📖 A História
+
+No coração do reino Alfabético, existe um lago encantado de águas cristalinas e límpidas. Este lago, conhecido como Lago Lexis, é o ponto de divisão entre duas cidades rivais: a cidade das letras MAIÚSCULAS, forte e imponente, e a cidade das letras minúsculas, ágil e engenhosa.
+
+A cidade das letras MAIÚSCULAS é conhecida por suas construções grandiosas e sua engenharia robusta. As letras MAIÚSCULAS são vistas como líderes e pioneiras, sempre se destacando em cima de seus equivalentes minúsculos. Em contraste, a cidade das letras minúsculas é um exemplo de criatividade e flexibilidade. Suas construções podem não ser tão imponentes, mas são conhecidas por sua eficiência e inovação.
+
+Ambas as cidades desejam construir uma ponte magnífica que atravessará o Lago Lexis, conectando as duas metades do reino e simbolizando a supremacia de uma cidade sobre a outra. A cidade que conseguir completar a ponte primeiro será celebrada como a mais habilidosa e engenhosa, ganhando respeito e reconhecimento em todo o reino Alfabético.
+
+## 🎯 Objetivo do Jogo
+
+O objetivo é formar uma sequência de 3 letras em linha horizontal, vertical ou diagonal no tabuleiro 3x3, representando o Lago Lexis. Cada jogador deve usar suas letras estrategicamente para construir sua ponte e vencer o adversário.
+
+## 🎲 Como Jogar
+
+### Regras Básicas
+1. O jogo é jogado em um tabuleiro 3x3
+2. Existem dois jogadores:
+   - Jogador das minúsculas (usa letras a-z)
+   - Jogador das maiúsculas (usa letras A-Z)
+3. A jogadora das minúsculas sempre começa primeiro
+
+### Durante o Jogo
+1. Em cada turno, o jogador deve:
+   - Escolher uma posição no tabuleiro (linha e coluna)
+   - Escolher uma letra disponível
+2. Uma letra só pode ser usada uma vez por jogador
+3. Uma letra minúscula pode substituir uma letra maiúscula se for maior que ela
+4. Uma letra maiúscula pode substituir uma letra minúscula se for maior que ela
+
+### Regras de Superioridade
+- Uma letra superior é aquela localizada mais para o final do alfabeto
+- Exemplos:
+  - M é superior a F
+  - B é inferior a D
+  - Z é superior a todas as outras letras
+
+### Condições de Vitória
+O jogo termina quando:
+- Um jogador forma uma linha, coluna ou diagonal com três letras do mesmo tipo
+- Um jogador usa todas as suas letras disponíveis
+- Os jogadores empatam
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+- Java 11 ou superior
+- Maven
+
+### Instalação
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/letter_game.git
+cd letter_game
+```
+
+2. Compile o projeto:
+```bash
+mvn clean package
+```
+
+3. Execute o jogo:
+```bash
+java -jar target/letter-game-1.0-SNAPSHOT.jar
+```
+
+## 🎮 Controles do Jogo
+
+### Menu Principal
+- 1: Começar um novo jogo
+- 2: Continuar um jogo salvo
+- 3: Sair
+
+### Durante o Jogo
+- Digite a linha (0-2) onde deseja jogar
+- Digite a coluna (0-2) onde deseja jogar
+- Digite a letra que deseja usar
+- Digite '@' a qualquer momento para salvar e sair
+
+## 📁 Estrutura do Projeto
+
+```
+letter_game/
+├── src/
+│   ├── models/
+│   │   └── Matriz.java
+│   ├── utils/
+│   │   └── EscritaArquivo.java
+│   └── game/
+│       └── LetterGame.java
+├── pom.xml
+└── README.md
+```
+
+## 💾 Salvamento do Jogo
+
+O jogo é salvo automaticamente em um arquivo `save.txt` quando você digita '@' durante o jogo. Você pode continuar o jogo posteriormente usando a opção 2 no menu principal.
+
+## ⚠️ Restrições
+
+- O uso de letras com diacríticos não é permitido (acentos, cedilha, etc.)
+- Cada letra só pode ser usada uma vez por jogador
+- As posições válidas no tabuleiro são de 0 a 2 (tanto para linhas quanto para colunas)
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👥 Autores
+
+- Seu Nome - Desenvolvimento Inicial
+
+## 🙏 Agradecimentos
+
+- A todos os jogadores que testaram e contribuíram com feedback
+- À comunidade Java por fornecer as ferramentas necessárias
+
 ## UPPERCASE vs LOWERCASE
 Java-based uppercase vs lowercase letter game using matrices.
 
