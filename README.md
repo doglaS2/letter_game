@@ -1,5 +1,9 @@
 # 🎮 Jogo das Letras: A Batalha do Lago Lexis
 
+Jogo desenvolvido em Java 11 utilizando matrizes para implementar um tabuleiro 3x3. Sistema de jogo baseado em estratégia com validação de jogadas e persistência de dados.
+
+Um jogo de estratégia em Java onde letras maiúsculas e minúsculas competem em um tabuleiro 3x3. Forme sequências de três letras enquanto usa estratégias de superioridade entre letras para vencer.
+
 <div align="center">
   <img src="https://img.shields.io/badge/Java-11-orange" alt="Java 11">
   <img src="https://img.shields.io/badge/Licença-MIT-blue" alt="Licença MIT">
@@ -172,7 +176,7 @@ O estado inicial do jogo é completamente vazio. A jogadora das minúsculas joga
 
 Depois, a jogadora das minúsculas pode escolher colocar uma letra em um espaço não ocupado ou colocar uma letra minúscula superior sobre um espaço de uma letra MAIÚSCULA que já está no lago. O jogo segue dessa forma na alternância de turnos entre as jogadoras. Depois que uma jogadora usa uma letra, ela não pode usar aquela letra novamente.
 
-Uma jogadora ganha quando completar uma sequência de 3 letras que controla na horizontal, na vertical ou na diagonal.
+A jogadora ganha quando completar uma sequência de 3 letras que controla na horizontal, na vertical ou na diagonal.
 
 O uso de letras com diacríticos (sinais gráficos que alteram o papel ou a fonética das letras) não é permitido, ou seja, nada de acentos circunflexos (letras com chapéu), til (letras com penteado extravagante), cedilha (letras com rabinho) etc.
 
